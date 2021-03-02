@@ -27,7 +27,7 @@ int *Multiply(int *matrix1, int *matrix2)
 }
 int main()
 {
-    size = 1500;
+    size = 1000;
     int *matrix1 = (int *)calloc(sizeof(int), size * size);
     int *matrix2 = (int *)calloc(sizeof(int), size * size);
 

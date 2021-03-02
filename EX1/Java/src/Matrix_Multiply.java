@@ -4,7 +4,7 @@
 public class Matrix_Multiply {
 
     public static void main(String[] args) {
-        int size = 1500;
+        int size = 1000;
         int[][] matrix1 = new int[size][size];
         int[][] matrix2 = new int[size][size];
 
