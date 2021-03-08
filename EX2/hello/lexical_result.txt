@@ -1,0 +1,52 @@
+hash '#'	 [StartOfLine]	Loc=<hello.c:1:1>
+raw_identifier 'include'		Loc=<hello.c:1:2>
+unknown ' '		Loc=<hello.c:1:9>
+less '<'		Loc=<hello.c:1:10>
+raw_identifier 'stdio'		Loc=<hello.c:1:11>
+period '.'		Loc=<hello.c:1:16>
+raw_identifier 'h'		Loc=<hello.c:1:17>
+greater '>'		Loc=<hello.c:1:18>
+unknown '
+'		Loc=<hello.c:1:19>
+raw_identifier 'int'	 [StartOfLine]	Loc=<hello.c:2:1>
+unknown ' '		Loc=<hello.c:2:4>
+raw_identifier 'main'		Loc=<hello.c:2:5>
+l_paren '('		Loc=<hello.c:2:9>
+raw_identifier 'int'		Loc=<hello.c:2:10>
+unknown ' '		Loc=<hello.c:2:13>
+raw_identifier 'argc'		Loc=<hello.c:2:14>
+comma ','		Loc=<hello.c:2:18>
+unknown ' '		Loc=<hello.c:2:19>
+raw_identifier 'char'		Loc=<hello.c:2:20>
+unknown ' '		Loc=<hello.c:2:24>
+raw_identifier 'const'		Loc=<hello.c:2:25>
+unknown ' '		Loc=<hello.c:2:30>
+star '*'		Loc=<hello.c:2:31>
+raw_identifier 'argv'		Loc=<hello.c:2:32>
+l_square '['		Loc=<hello.c:2:36>
+r_square ']'		Loc=<hello.c:2:37>
+r_paren ')'		Loc=<hello.c:2:38>
+unknown '
+'		Loc=<hello.c:2:39>
+l_brace '{'	 [StartOfLine]	Loc=<hello.c:3:1>
+unknown '
+    '		Loc=<hello.c:3:2>
+raw_identifier 'printf'	 [StartOfLine]	Loc=<hello.c:4:5>
+l_paren '('		Loc=<hello.c:4:11>
+string_literal '"hello world\n"'		Loc=<hello.c:4:12>
+r_paren ')'		Loc=<hello.c:4:27>
+semi ';'		Loc=<hello.c:4:28>
+unknown '
+    '		Loc=<hello.c:4:29>
+raw_identifier 'return'	 [StartOfLine]	Loc=<hello.c:5:5>
+unknown ' '		Loc=<hello.c:5:11>
+numeric_constant '0'		Loc=<hello.c:5:12>
+semi ';'		Loc=<hello.c:5:13>
+unknown '
+'		Loc=<hello.c:5:14>
+r_brace '}'	 [StartOfLine]	Loc=<hello.c:6:1>
+unknown '
+'		Loc=<hello.c:6:2>
+/usr/bin/ld: /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
