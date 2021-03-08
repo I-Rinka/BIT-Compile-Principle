@@ -49,21 +49,21 @@ echo $(time_run_10)ms
 echo ""
 
 echo "LLVM O0:"
-gcc $compile_command -O0
+clang $compile_command -O0
 echo $(time_run_10)ms
 echo ""
 
 echo "LLVM O1:"
-gcc $compile_command -O1
+clang $compile_command -O1
 echo $(time_run_10)ms
 echo ""
 
 echo "LLVM O2:"
-gcc $compile_command -O2
+clang $compile_command -O2
 echo $(time_run_10)ms
 echo ""
 
 echo "LLVM O3:"
-gcc $compile_command -O3
+clang $compile_command -O3
 echo $(time_run_10)ms
 echo ""
