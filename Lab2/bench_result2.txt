@@ -1,0 +1,24 @@
+GCC O0:
+806365.7ms
+
+GCC O1:
+91867.2ms
+
+GCC O2:
+90760.5ms
+
+GCC O3:
+91201.1ms
+
+LLVM O0:
+844202.3ms
+
+LLVM O1:
+492322.6ms
+
+LLVM O2:
+82711.4ms
+
+LLVM O3:
+83490.7ms
+
